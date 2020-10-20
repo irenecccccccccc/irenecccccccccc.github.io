@@ -1,0 +1,21 @@
+h1 {
+    color: yellow
+}
+p {
+    color: palevioletred
+}
+h3.pinkText {
+    color: hotpink;
+    text-decoration: underline;
+}
+#pinkText {
+    color: green;
+}
+#firstBox {
+    width: 200px;
+    height: 100px;
+    background-color: indianred;
+    padding: 20px;
+    margin: 50px;
+    border: 10px yellow dotted;
+}

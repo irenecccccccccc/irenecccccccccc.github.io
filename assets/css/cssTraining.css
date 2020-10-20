@@ -1,0 +1,44 @@
+#firstDiv {
+    width: '100%';
+    height: 300px;
+    background-image: url('../images/Nightfall-Skyline-1280x800.jpg');
+}
+#secondDiv {
+    width: '100%';
+    height: 300px;
+    background-image: url('../images/4402b610a04ca5797b426faa9ea9a7e6.jpg');
+    background-repeat: repeat
+}    
+#secondDiv span {
+    background-color: pink;
+    font-size: 75px;
+}
+
+#thirdDiv {
+    width: '100%';
+    height: 300px;
+    background-image: url('../images/cacti_spines_plant_174607_1280x720.jpg');
+    background-repeat: no-repeat;
+}
+#thirdDiv span {
+    background-color:green;
+    font-size: 35px;
+    font-style: italic;
+}
+#fourthDiv {
+    width: '100%';
+    height: 300px;
+    background-image: url('../images/cacti-cactus-cactus-flower-cactus-plant.jpg');
+    background-repeat: no-repeat;
+}
+#fourthDiv p{
+    color: darkcyan;
+    font-size: 35px;
+    font-style: oblique;
+}
+
+span {
+    color: blue;
+    background-color: green;
+    font-size: 75px;
+}
