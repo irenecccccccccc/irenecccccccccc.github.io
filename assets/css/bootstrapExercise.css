@@ -1,0 +1,33 @@
+.veggieText {
+    background-color: green;
+    color: white;
+    padding: 20px
+}
+
+.riceText {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+}
+
+.container-fluid.bearBentoBox {
+    padding-left: 0;
+    padding-right: 0;
+}
+.bearBentoBox p:first-child {
+    background: lightcoral;
+    color: white;
+}
+
+.bearBentoBox .col-md-8 p {
+    background: lightgreen;
+    color: white;
+}
+.salad {
+    background-color: grey;
+}
+
+.salad p {
+    padding: 5px;
+    color: white
+}
