@@ -23,11 +23,60 @@
     background: lightgreen;
     color: white;
 }
-.salad {
+.salad{
     background-color: grey;
+    padding: 30px;
 }
 
 .salad p {
     padding: 5px;
-    color: white
+    color: blue!important;
+}
+
+.regBentox {
+    margin-top: 20px;
+}
+/* regular bento */
+.regBentox {
+    background-color: darkturquoise;
+    height: 50px;
+}
+/* bootstrap vertical alignment */
+.gridExercise {
+    background-color: lightblue;
+    margin: 30px 0;
+    margin-top: 30;
+    margin-bottom: 30px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.parentTarget {
+    height: 200px;
+    background-color: lightgrey;
+    margin: 10px 0;
+}
+
+.parentTarget div {
+    height: 50px;
+    background-color: lightskyblue;
+    border: 1px solid black;
+        /* border-width: 1px;
+        border-color: black
+        border-style: solid; */
+
+
+}
+.gridExercise .height100 {
+    height: 100px;
+    background-color: lightcoral;
+    border: 1px solid black;
+
+}
+
+.height100 div {
+    height: 50px;
+    background-color: lightgreen;
+    border: 1px solid black;
+
 }
