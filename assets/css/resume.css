@@ -1,0 +1,115 @@
+.customNav {
+    background-color: palevioletred;
+}
+.customNav li.nav-item.active {
+    color: white;
+    font-size: 20px;
+    text-decoration-style: solid;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.topRow {
+    align-items: center;
+    margin-bottom: 60px;
+    background-color:#A6907C;
+    color: #fff;
+    width: 2000 px;
+    height: 400px;
+    padding-left: 100px;
+}
+.contact {
+    border: 1px solid #F2E8DF;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+li {
+    display: list-item;
+    -ms-text-align-last: center;
+}
+
+::marker {
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: start !important;
+}
+
+.progress-bar {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #007bff;
+    transition: width .6s ease;
+}
+div.nameTitle {
+    padding-left: 50px;
+}
+
+.name {
+    display: false;
+    position: absolute;
+    margin: false;
+    top: false;
+    left: calc(350px + 5%);
+    right: 0;
+    bottom: 0;
+    height: 120px;
+    text-align: center;
+    font-family: 'Haboro Contrast';
+    font-size: 80px;
+    letter-spacing: 8px;
+    font-weight: 100;
+    line-height: 5px;
+}
+.caps {
+    text-transform: uppercase;
+}
+
+.side-bar {
+    display: false;
+    position: absolute;
+    margin: false;
+    top: 70px;
+    left: 15%;
+    right: false;
+    bottom: 0;
+    width: 500px;
+    background-color: #f7e0c1;
+    padding: 320px 30px 50px;
+}
+.mugshot .Avatar {
+    margin: -70px;
+}
+.
+.list-thing {
+    padding-left: 25px;
+    margin-bottom: 10px;
+}
+.page {
+    width: 90%;
+    max-width: 1200px;
+    margin: 80px auto;
+    background-color: #fff;
+    box-shadow: 6px 10px 28px 0px rgba(0,0,0,0.4);
+}
+.logo {
+    top: 80px;
+}
