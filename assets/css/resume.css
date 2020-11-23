@@ -31,6 +31,10 @@
     height: 20px;
     font-family: 'Haboro Contrast';
 }
+
+.body {
+    background-color: #F2E8DF;
+}
 div.nameTitle {
     padding-left: 50px;
 }
