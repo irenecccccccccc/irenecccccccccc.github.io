@@ -1,5 +1,5 @@
 .customNav {
-    background-color: palevioletred;
+    background-color:#A6907C;
 }
 .customNav li.nav-item.active {
     color: white;
@@ -130,7 +130,6 @@ element.style {
 
 @media (min-width: 768px)
 .col-md-4 {
-    -ms-flex: 0 0 33.333333%;
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
 }
@@ -208,15 +207,15 @@ element.style {
 }
 @media (min-width: 992px)
 .container, .container-lg, .container-md, .container-sm {
-    max-width: 960px;
+    
 }
 @media (min-width: 768px)
 .container, .container-md, .container-sm {
-    max-width: 720px;
+    
 }
 @media (min-width: 576px)
 .container, .container-sm {
-    max-width: 540px;
+    
 }
 
 
@@ -253,4 +252,9 @@ element.style {
 img {
     vertical-align: middle;
     border-style: none;
+}
+
+.topRow img.resumelogo {
+    position: absolute;
+    
 }
