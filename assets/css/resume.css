@@ -25,14 +25,13 @@
 }
  
 div.nameTitle h1 {
-    font-size: 100px
+    font-size: 100px;
     font-weight: lighter;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
     margin-bottom: .5rem;
     line-height: 1.2;
-    font-weight: 500;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -56,6 +55,7 @@ div.nameTitle {
     position: relative;
     width: 100%;
     padding-right: 15px;
+    padding-left: 15px
 }
 
 .contactInfo p {
@@ -81,6 +81,12 @@ p {
     -ms-flex: 0 0 33.333333%;
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
+}
+
+.col-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
 }
 
 .col-8 {
@@ -116,47 +122,135 @@ element.style {
     line-height: 1;
 }
 
-
-
-
-
-/* bootstrap vertical alignment */
-.gridExercise {
-    background-color:#F2E8DF;
-    margin: 30px 0;
-    margin-top: 30;
-    margin-bottom: 30px;
-    margin-left: 30px;
-    margin-right: 30px;
+.Education, .Language, .PersonalSkills, .experience, .projects, {
+    border: 1px solid #F2E8DF;
+    padding: 20px;
+    margin-top: 30px;
 }
 
-.parentTarget {
-    height: 1550px;
-    background-color:#F2E8DF;
-    margin: 10px 0;
-    
+@media (min-width: 768px)
+.col-md-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
 }
 
-.parentTarget div {
-    height: 10px;
+@media (min-width: 768px)
+.col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+
+element.style {
+}
+.middleRow h3, .bottomRow h3 {
+    color: #A6907C;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+
+.middleRow div.divider {
+    border-bottom: 2px dashed #A6907C;
+    transform: translate(-20px, 0);
+    margin-bottom: 25px;
+    width: 50%;
+}
+.h3, h3 {
+    font-size: 1.75rem;
+    color: #A6907C;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.PersonalSkills ul {
+    padding-left: 20px;
+}
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+
+
+
+media (min-width: 1200px)
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1140px;
+}
+
+
+
+
+element.style {
+}
+@media (min-width: 1200px)
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1140px;
+}
+@media (min-width: 992px)
+.container, .container-lg, .container-md, .container-sm {
+    max-width: 960px;
+}
+@media (min-width: 768px)
+.container, .container-md, .container-sm {
+    max-width: 720px;
+}
+@media (min-width: 576px)
+.container, .container-sm {
+    max-width: 540px;
+}
+
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    width: 100%;
+    border: 2px solid #F2E8DF;
+    padding: 20px 50px!important;
+    margin-top: 50px;
+    margin-bottom: 50px;
     background-color: #F2E8DF;
-    border: lightslategrey;
-        /* border-width: 5px;
-        border-color: black
-        border-style: solid; */
 }
 
-.height100 {
-    height: 1550px;
-    background-color:#F2E8DF;
-    margin: 10px 0;
-}
-
-.height100 div {
-    height: 10px;
+.container {
     background-color: #F2E8DF;
-    border: lightslategrey;
-        /* border-width: 5px;
-        border-color: black
-        border-style: solid; */
+    margin-top: 20px;
+}
+.myResume {
+    border: 2px solid #F2E8DF;
+    padding: 20px 50px!important;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.topRow img.profileAvata {
+    width: 100%;
+    height: auto;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
 }
