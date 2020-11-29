@@ -14,9 +14,13 @@
     margin-left: -15px;
 }
 
+.contactRow {
+    margin-top: 40px;
+}
+
 .topRow {
     align-items: center;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
     background-color:#A6907C;
     color: #fff;
     width: 2000 px;
@@ -90,7 +94,6 @@ p {
 }
 
 .col-8 {
-    -ms-flex: 0 0 66.666667%;
     flex: 0 0 66.666667%;
     max-width: 66.666667%;
 }
@@ -128,18 +131,6 @@ element.style {
     margin-top: 30px;
 }
 
-@media (min-width: 768px)
-.col-md-4 {
-    flex: 0 0 33.333333%;
-    max-width: 33.333333%;
-}
-
-@media (min-width: 768px)
-.col-md-6 {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
-}
 
 
 element.style {
@@ -189,18 +180,6 @@ ul {
 }
 
 
-
-
-media (min-width: 1200px)
-.container, .container-lg, .container-md, .container-sm, .container-xl {
-    max-width: 1140px;
-}
-
-
-
-
-element.style {
-}
 @media (min-width: 1200px)
 .container, .container-lg, .container-md, .container-sm, .container-xl {
     max-width: 1140px;
@@ -217,6 +196,46 @@ element.style {
 .container, .container-sm {
     
 }
+
+@media (min-width: 768px)
+.col-md-4 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+
+@media (min-width: 768px)
+.col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+/* Media Queries */
+@media (max-width: 576px) {
+    .techskill div.progress {
+        transform: translateY (-12px);
+    }
+}
+
+@media (max-width: 768px) {
+    .myResume {
+        border-width: 0px;
+    }
+    .bottomRow .techskill div.divider {
+        transform: translateX (-35px);
+    }
+    div.nameTitle h1 {
+        font-size: 55px;
+    }
+}
+
+@media (min-width:576px) and (max-width:992px) {
+    .techskill i.fa-circle {
+        letter-spacing: 0px;
+    }
+}
+
+
 
 
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
@@ -254,7 +273,7 @@ img {
     border-style: none;
 }
 
-.topRow img.resumelogo {
-    position: absolute;
-    
+.resumelogo {
+    height: 40px;
+    width: auto;
 }
