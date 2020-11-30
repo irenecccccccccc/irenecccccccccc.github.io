@@ -156,7 +156,7 @@ element.style {
 .h3, h3 {
     font-size: 1.75rem;
     color: #A6907C;
-    font-family: Montserrat;
+    
 }
 
 h3 {
@@ -166,7 +166,7 @@ h3 {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    
+    font-family: Montserrat;
 }
 
 
@@ -297,21 +297,4 @@ img {
     background-color: lightgray;
     border-width: 0;
     margin: 20px 0;
-}
-hr {
-    border: 0;
-    border-top: 1px solid rgba(0,0,0,.1);
-}
-hr {
-    box-sizing: content-box;
-    overflow: visible;
-}
-
-hr {
-    display: block;
-    unicode-bidi: isolate;
-    margin-block-start: 0.5em;
-    margin-block-end: 0.5em;
-    margin-inline-start: auto;
-    margin-inline-end: auto;
 }
