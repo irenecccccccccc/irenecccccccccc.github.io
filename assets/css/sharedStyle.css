@@ -1,12 +1,14 @@
 .customNav {
-    background-color: lightseagreen;
+    background-color:#A6907C;
 }
-
 .customNav li.nav-item.active {
     color: white;
     font-size: 20px;
     text-decoration-style: solid;
 }
+
+
+
 
 .customNav li.nav-item.active a {
     color: white!important;
