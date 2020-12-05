@@ -12,6 +12,34 @@
     width: auto;
 } 
 
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.projectGalleryContainer {
+    margin: 30px 0;
+}
+
+.sectionTitle {
+    color:#A6907C;
+    font-weight: bold;
+    border-bottom: 6px solid #A6907C;
+    border-top: 6px solid #A6907C;
+    margin-bottom: 25px;
+    padding-top: 5px;
+    text-align: center;
+    margin: 50px auto;
+    font-family: Montserrat;
+}
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
 h1 {
     color: yellow
 }
