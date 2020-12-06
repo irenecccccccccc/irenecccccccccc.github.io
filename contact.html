@@ -5,6 +5,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Meng's Portfolio</title>
+    <!-- favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
     <!-- local/custom stylesheet -->
     <link rel="stylesheet" type="text/css" href="assets/css/homePage.css">
     <!-- bootstrap stylesheet -->
@@ -42,7 +47,44 @@
             </ul>
         </div>
     </nav>
-    
+    <div class="container-fluid">
+        <section class="projectGalleryContainer">
+            <div class="sectionTitle">
+                <h2>It's nice to meet you!</h2>
+            </div>
+        <div class="col-12 row topRow">
+            <div class="col-sm-4">
+                <img class="profileAvata img-fluid" style="border-radius: 100%" src="assets/images/contactphoto.jpg">
+            </div>
+            <div class="col-sm-8 nameTitle">
+                <div>
+
+                    <h6>Hello, I am Meng! I am currently majoring in visual communication design at Cal Poly Pomona. I love Photography and Illustration. Please do not
+                        hesitate to reach me out! If you are interested in collabrating with me !
+                    </h6>
+                </div>
+
+                <form>
+                    <div class="form-group">
+                        <label for="nameField">Name</label>
+                        <input type="Name" class="form-control" id="phoneField">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="form-group">
+                        <label for="phoneField">Phone</label>
+                        <input type="phone" class="form-control" id="phoneField">
+                    </div>
+                    <div class="form-group">
+                        <label for="emaiLetter">Write me a message</label>
+                        <textarea class="form-control" id="emaiLetter" rows="3"></textarea>
+                    </div>
+                    <a type="submit" class="btn btn-primary" href="mailTo: irene0712345oo@gmail.com">SEND!</a>
+                    <small id="submitHelp" class="form-text text-muted">Thank you for reaching me out!</small>
+                </form>
+            </div>
 
 </body>
 

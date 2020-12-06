@@ -12,6 +12,13 @@
     width: auto;
 } 
 
+.profileAvata {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
 
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
     width: 100%;
@@ -105,10 +112,14 @@ h5 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-family: Montserrat;
-    text-align: center;
-   
+    
 }
 
+h6 {
+    font-family: Montserrat;
+    color:grey;    
+
+}
 p {
     margin-top: 0;
     margin-bottom: 1rem;
@@ -171,4 +182,6 @@ img {
     border-style: none;
 }
 
- 
+.form-group {
+    font-family: Haboro Contrast;
+}
